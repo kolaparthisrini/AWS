@@ -1,0 +1,13 @@
+A paid AMI is an AMI that you can purchase from a developer.
+
+Amazon EC2 integrates with AWS Marketplace, enabling developers to charge other Amazon EC2 users for the use of their AMIs 
+or to provide support for instances.
+
+The AWS Marketplace is an online store where you can buy software that runs on AWS, including AMIs that you can use to launch your
+EC2 instance. The AWS Marketplace AMIs are organized into categories, such as Developer Tools, to enable you to find products to suit your requirements. For more information about AWS Marketplace, see the AWS Marketplace site.
+
+Launching an instance from a paid AMI is the same as launching an instance from any other AMI. No additional parameters are required. 
+The instance is charged according to the rates set by the owner of the AMI, as well as the standard usage fees for the related web services, for example, the hourly rate for running an m1.small instance type in Amazon EC2. 
+Additional taxes might also apply. The owner of the paid AMI can confirm whether a specific instance was launched using that paid AMI.
+
+AWS Market Place:https://aws.amazon.com/marketplace?b_k=291

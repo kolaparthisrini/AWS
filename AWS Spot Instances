@@ -1,0 +1,19 @@
+Use Spot instances to bid on spare Amazon EC2 computing capacity. Since Spot instances are often available at a discount
+compared to the pricing of On-Demand instances, you can significantly reduce the cost of running your applications, grow your
+application’s compute capacity and throughput for the same budget, and enable new types of cloud computing applications.
+
+With Spot nstances you can reduce your operating costs by up to 50-90%, compared to on-demand instances. Since Spot 
+instances typically cost 50-90% less, you can increase your compute capacity by 2-10 times within the same budget.
+
+Spot instances are supported on any Linux x86 system that is supported by LSF.
+
+Spot Instances have some restrictions, including instance types and fleet limitations. 
+For more information, see http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.html
+
+
+Limitations and known issues
+The Spot Instance Termination Notice is not accurate if the system clock is not synchronized between the master host and the compute host. System clock synchronization is required for reclaim to work.
+The following AWS topic explains this issue: : http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html
+
+If a request remains pending for 60 minutes, resource connector assumes that the request is lost. The request is ignored and LSF recalculates the demand. In AWS Spot instances, the request remains pending and is not closed.
+LSF checks periodically for any hosts that are planned to be reclaimed and requeues the jobs within the 2 minute termination notice. However, it's possible that AWS might not honor the 2 minute termination notice, and machines are terminated without a termination notice. 

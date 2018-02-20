@@ -1,0 +1,18 @@
+
+Amazon Resource Names (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously
+across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.
+
+Example:
+  <!-- Elastic Beanstalk application version -->
+arn:aws:elasticbeanstalk:us-east-1:123456789012:environment/My App/MyEnvironment
+
+<!-- IAM user name -->
+arn:aws:iam::123456789012:user/David
+
+<!-- Amazon RDS instance used for tagging -->
+arn:aws:rds:eu-west-1:123456789012:db:mysql-db
+
+<!-- Object in an Amazon S3 bucket -->
+arn:aws:s3:::my_corporate_bucket/exampleobject.png
+
+https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#arn-syntax-s3

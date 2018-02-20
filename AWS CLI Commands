@@ -41,4 +41,5 @@ To scale down ECS services:
 To delete a service:
   aws ecs delete-service --cluster <value> --service <value>
 
-
+To Transfer Content frrom one S3 bucket to anoyher bucket:
+    aws s3 sync s3://oldbucket s3://newbucket

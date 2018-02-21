@@ -1,2 +1,3 @@
 AWS Import/Export----For transfering Huge amount of data
 EBS and Ec2 will be in same zone.
+In S3,objects are encrypted using server-side encryption with either Amazon S3-managed keys (SSE-S3) or AWS KMS-managed keys (SSE-KMS).

@@ -1,0 +1,24 @@
+To install Python 3.6 and pip (Windows)
+
+Download the Python 3.6 Windows x86-64 executable installer from the downloads page of Python.org.
+
+Run the installer.
+
+Choose Add Python 3.6 to PATH.
+
+Choose Install Now.
+
+-------------------------
+Next
+
+To install the AWS CLI with pip (Windows)
+
+>Open the Windows Command Processor from the Start menu.
+
+>Verify that Python and pip are both installed correctly by using the following commands.
+
+>Install the EB CLI using pip/easy_install.
+
+>Issue the below command:C:\Python6> pip install awsebcli --upgrade --user
+
+>After installation check eb using below command :eb --version

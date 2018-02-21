@@ -1,3 +1,13 @@
 AWS Import/Export----For transfering Huge amount of data
 EBS and Ec2 will be in same zone.
 In S3,objects are encrypted using server-side encryption with either Amazon S3-managed keys (SSE-S3) or AWS KMS-managed keys (SSE-KMS).
+
+Notification messages can be sent to the following types of destinations:
+ An Amazon Simple Notification Service (Amazon SNS) topic – A web service that coordinates and manages the delivery or sending of messages
+ to subscribing endpoints or clients.
+ An Amazon Simple Queue Service (Amazon SQS) queue – Offers reliable and scalable hosted queues for storing messages as they travel
+ between computer.
+ A Lambda function – AWS Lambda is a compute service where you can upload your code and the service can run the code on your behalf 
+ using the AWS infrastructure. You package up and upload your custom code to AWS Lambda when you create a Lambda function
+
+

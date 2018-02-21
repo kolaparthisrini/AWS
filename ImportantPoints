@@ -8,6 +8,11 @@ Notification messages can be sent to the following types of destinations:
  An Amazon Simple Queue Service (Amazon SQS) queue – Offers reliable and scalable hosted queues for storing messages as they travel
  between computer.
  A Lambda function – AWS Lambda is a compute service where you can upload your code and the service can run the code on your behalf 
- using the AWS infrastructure. You package up and upload your custom code to AWS Lambda when you create a Lambda function
+ using the AWS infrastructure. You package up and upload your custom code to AWS Lambda when you create a Lambda function.
+ 
+ 
+ >>Amazon S3 stores the archived objects in Amazon Glacier. However, these are Amazon S3 objects, and you can access them only by
+ using the Amazon S3 console or the Amazon S3 API. You cannot access the archived objects through the Amazon Glacier console or the
+ Amazon Glacier API
 
 
